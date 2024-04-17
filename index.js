@@ -18,8 +18,6 @@ var tokens=[
     ["Fwc","0x6D3a160B86eDcD46D8F9bBa25c2F88ccCADe19fc",9],
     ["ARV","0x6679eB24F59dFe111864AEc72B443d1Da666B360",8],
 
-    
-        
 ]
 function myfunction()
 {
