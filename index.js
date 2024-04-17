@@ -19,6 +19,7 @@ var tokens=[
     ["ARV","0x6679eB24F59dFe111864AEc72B443d1Da666B360",8],
     ["CAT","0x59F4F336Bf3D0C49dBfbA4A74eBD2a6aCE40539A",9],
     ["MILO","0xd9dE2B1973E57Dc9DBA90c35d6Cd940ae4A3CBe1",9],
+    ["PIT","0xA57ac35CE91Ee92CaEfAA8dc04140C8e232c2E50",9],
     
 ]
 function myfunction()
@@ -31,11 +32,11 @@ function myfunction()
     }
     
     setTimeout(() => {
-        for(let i=7 ; i<=19 ; i++)
+        for(let i=7 ; i<=20 ; i++)
     {
         apicall(i,userAdd);
     }
-    }, 5000);
+    }, 7000);
     
 } 
 //0x07547eb1e952048a7528Bccc8461836DE786aa26
