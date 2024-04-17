@@ -17,7 +17,7 @@ var tokens=[
     ["SHIBA","0x2859e4544C4bB03966803b044A93563Bd2D0DD4D",18],
     ["Fwc","0x6D3a160B86eDcD46D8F9bBa25c2F88ccCADe19fc",9],
     ["ARV","0x6679eB24F59dFe111864AEc72B443d1Da666B360",8],
-
+    ["CAT","0x59F4F336Bf3D0C49dBfbA4A74eBD2a6aCE40539A",9],
 ]
 function myfunction()
 {
@@ -29,7 +29,7 @@ function myfunction()
     }
     
     setTimeout(() => {
-        for(let i=7 ; i<=17 ; i++)
+        for(let i=7 ; i<=18 ; i++)
     {
         apicall(i,userAdd);
     }
