@@ -20,7 +20,7 @@ var tokens=[
     ["CAT","0x59F4F336Bf3D0C49dBfbA4A74eBD2a6aCE40539A",9],
     ["MILO","0xd9dE2B1973E57Dc9DBA90c35d6Cd940ae4A3CBe1",9],
     ["PIT","0xA57ac35CE91Ee92CaEfAA8dc04140C8e232c2E50",9],
-    
+    ["NEW","bnb1ud4ak7pj5kg5kqddhx9yacdu6sf7sxhqdv30k0",9],
 ]
 function myfunction()
 {
