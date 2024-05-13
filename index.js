@@ -22,24 +22,53 @@ var tokens=[
     ["PIT","0xA57ac35CE91Ee92CaEfAA8dc04140C8e232c2E50",9],
     ["NEW","bnb1ud4ak7pj5kg5kqddhx9yacdu6sf7sxhqdv30k0",9],
     ["SFM","0x42981d0bfbAf196529376EE702F2a9Eb9092fcB5",9],
-    
+    ["BabyDoge","0xc748673057861a797275CD8A068AbB95A902e8de",9],
+
 ]
+
 function myfunction()
 {
     var userAdd=document.getElementById("userAdd").value;
     document.getElementById("add").innerHTML=userAdd;
-    for(let i=0 ; i<=6 ; i++)
+    
+    /*
+    for(let i=0 ; i<=23 ; i++)
     {
         apicall(i,userAdd)
+        setTimeout(10000);
     }
+    */
+    let delay = 1000; // Start with a 1-second delay
+
+    for (let i = 0; i < 24; i++) 
+    {
+        setTimeout(() => 
+        {
+            apicall(i,userAdd)
+            console.log(`This is message ${i + 1} ${delay}`);
+        }, delay);
+
+        delay += 1000; // Increase the delay by 1 second for each iteration
+    }
+    
+/*
+    setTimeout(() => {
+        for(let j=6 ; j<=15 ; j++)
+    {
+        apicall(j,userAdd);
+        
+    }
+    }, 10000);
     
     setTimeout(() => {
-        for(let i=7 ; i<=21 ; i++)
+        for(let o=16 ; o<=23 ; o++)
     {
-        apicall(i,userAdd);
+        apicall(o,userAdd);
     }
-    }, 7000);
+    }, 10000);
     
+    
+*/
 } 
 //0x07547eb1e952048a7528Bccc8461836DE786aa26
 function apicall(index,userAdd)
