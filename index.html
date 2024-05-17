@@ -19,10 +19,13 @@
         <p>
             Enter your BEP20 Wallet address:
         </p>
-        <p style="align:center;">
-            
-            <input type="text"  required id="userAdd" style="width: 60%;" >
-        <button onclick="myfunction()">Get Data</button>
+        <div class="container">
+         <form action="">
+            <input type="text" required id="userAdd" style="width: 60%;color:#576803;" placeholder="Enter BEP20 Address">
+            <br />
+            <input type="submit" class="buy_button" value="Get Data" onclick="myfunction()"> 
+         </form>
+        </div>
         <div id="add" align='center' style="width: 90%;"></div>
         <table class="py-5" style="width: 70%; overflow-x: auto;">
             <tr>
